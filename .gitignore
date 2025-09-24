@@ -31,3 +31,17 @@ yarn.lock
 *.iml
 
 cache/
+
+#My Config
+public\images\albums\AcgExample\*
+public\images\albums\ExternalExample\*
+public\images\albums\HiddenExample\*
+
+src\content\posts\guide
+src\content\posts\guide\*
+src\content\posts\draft.md
+src\content\posts\encrypted-post.md
+src\content\posts\markdown-extended.md
+src\content\posts\markdown-mermaid.md
+src\content\posts\markdown-tutorial.md
+src\content\posts\video.md
