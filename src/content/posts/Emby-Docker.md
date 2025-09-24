@@ -42,3 +42,5 @@ services:
 运行 `docker-compose up -d`
 
 访问 `http://设备ip:8096` 即可进入Emby-Web页面
+
+本页封面：[Pixiv-宮水の巫女](https://www.pixiv.net/artworks/60268880)
