@@ -96,42 +96,6 @@ const completedList = completedData ? processBangumiData(completedData, "complet
 // 合并所有番剧列表
 const animeList = [...watchingList, ...completedList];
 
-// 追番数据
-const animeList = [
-	{
-		title: "月色真美",
-		status: "completed",
-		rating: 9.8,
-		cover: "https://i0.hdslb.com/bfs/bangumi/5ce66f68d54052e3a305524b9b06a76977e974fc.jpg",
-		description: "茜与小太郎。第一次被分到同班，相识的两人。同班同学、社团伙伴、教师、父母……与周围的关联，自己的成长。在那个一边被变化与不安追着，一边慌慌张张地向前飞奔的季节之中，有着一段稚嫩而又令人眩目的青春校园生活。",
-		episodes: "12 episodes",
-		year: "2017",
-		genre: ["校园", "恋爱", "治愈", "原创"],
-		studio: "A-1 Pictures",
-		link: "https://www.bilibili.com/bangumi/media/md5989",
-		progress: 12,
-		totalEpisodes: 12,
-		startDate: "2017-04",
-		endDate: "2017-06",
-	},
-		{
-		title: "冰菓",
-		status: "completed",
-		rating: 9.8,
-		cover: "https://i0.hdslb.com/bfs/bangumi/074056b8543ed2ceb53dc13a79da1eafa3fa921a.jpg",
-		description: "在众多将要展开「玫瑰色」生活的高中生之中，本作的男主角折木奉太郎却是一个「灰色」的节能主义者。凡是没必要的事就不做，因为不想后悔，被人说是疏离、厌世也无所谓，因为这就是他的作风。这样的折木奉太郎，却因为姐姐的命令而进入了濒临废社的「古籍研究社」。研究社虽然好不容易招到了四名新社员，但却又卷入了四十五年前社长突然肄业的谜团之中。社长当年留下的名为「冰菓」的社刊，内里究竟隐藏了什么神秘的讯息呢……",
-		episodes: "12 episodes",
-		year: "2012",
-		genre: ["推理", "恋爱", "日常", "校园"],
-		studio: "A-1 Pictures",
-		link: "https://www.bilibili.com/bangumi/media/md3398",
-		progress: 12,
-		totalEpisodes: 12,
-		startDate: "2012-04",
-		endDate: "2017-09",
-	}
-];
-
 // 获取状态的翻译文本和样式
 function getStatusInfo(status: string) {
 	switch (status) {
