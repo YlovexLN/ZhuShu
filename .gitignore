@@ -33,6 +33,8 @@ yarn.lock
 cache/
 
 #My Config
+public\favicon\*
+
 public\images\albums\AcgExample\*
 public\images\albums\ExternalExample\*
 public\images\albums\HiddenExample\*
