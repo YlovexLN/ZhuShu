@@ -215,7 +215,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "https://qiniu.ylovexln.top/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "YlovexLN",
-	bio: "你还可以在这儿看到我",
+	bio: "你还可以在这儿看到我哦~",
 	links: [
 		{
 			name: "Bilibli",
