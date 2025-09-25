@@ -9,13 +9,15 @@ licenseName: "CC BY 4.0"
 author: "YlovexLN"
 draft: false
 date: 2025-09-24
-image: https://qiniu.ylovexln.top/images/60268880_p0.jpg
+image: https://qiniu.ylovexln.top/images/Emby-Docker.png
 pubDate: 2025-09-24
 ---
 
 ## 我是**，这是我的看片神器~
 
-本页使用的是amilys大佬的Emby开心版Docker镜像来部署使用
+封面使用的是amilys大佬的Emby开心版[Docker镜像](https://hub.docker.com/r/amilys/embyserver)来部署使用
+
+最主要的是自带 [emby-erx](https://github.com/amilys/emby-erx) 美化插件，效果图如封面
 
 建议使用 `docker-compose.yml` 文件便于后期的修改
 
@@ -43,4 +45,6 @@ services:
 
 访问 `http://设备ip:8096` 即可进入Emby-Web页面
 
+<!--
 本页封面：[Pixiv-宮水の巫女](https://www.pixiv.net/artworks/60268880)
+-->
