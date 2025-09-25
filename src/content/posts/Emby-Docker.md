@@ -1,9 +1,9 @@
 ---
-title: "我是**，这是我的看片神器~"
+title: "嗨！我是**，这是我的看片神器~"
 published: 2025-09-24
 pinned: false
-description: "这是我的看片神器Emby"
-tags: [Emby, Docker,docker-compose]
+description: "这是我的看片神器~"
+tags: [Emby, Docker, docker-compose]
 category: Emby
 licenseName: "CC BY 4.0"
 author: "YlovexLN"
