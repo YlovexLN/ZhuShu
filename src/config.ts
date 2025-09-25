@@ -113,8 +113,8 @@ export const siteConfig: SiteConfig = {
 		// 留空以使用默认 favicon
 		 {
 		   src: 'https://qiniu.ylovexln.top/blog/favicon.png',    // 图标文件路径
-		   theme: 'dark',              // 可选，指定主题 'light' | 'dark'
-		   sizes: '32x32',              // 可选，图标大小
+		   //theme: 'dark',              // 可选，指定主题 'light' | 'dark'
+		   //sizes: '128x128',              // 可选，图标大小
 		 }
 	],
 
