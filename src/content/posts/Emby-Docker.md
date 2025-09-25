@@ -17,7 +17,7 @@ pubDate: 2025-09-24
 
 封面使用的是amilys大佬的Emby开心版[Docker镜像](https://hub.docker.com/r/amilys/embyserver)来部署使用
 
-最主要的是自带 [emby-erx](https://github.com/amilys/emby-erx) 美化插件，效果图如封面
+最主要的是自带[emby-erx](https://github.com/amilys/emby-erx)美化插件，效果图如封面
 
 建议使用 `docker-compose.yml` 文件便于后期的修改
 
