@@ -448,10 +448,4 @@ export const umamiConfig = {
   scripts: `
 <script defer src="https://cloud.umami.is/script.js" data-website-id="47e2f318-0a0e-475d-bced-1af9d2d7d841"></script>
   `.trim() //上面填你要插入的Script,不用再去Layout中插入
-	enabled: false, // 是否显示Umami统计
-	apiKey: "api_XXXXXXXXXX", // 你的API密钥
-	baseUrl: "https://api.umami.is", // Umami Cloud API地址
-	scripts: `
-<script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
-  `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
