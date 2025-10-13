@@ -26,13 +26,11 @@ pubDate: 2025-09-24
 ```yml
 services:
   emby:
-    image: amilys/embyserver:beta #amilys大佬的开心版镜像
+    image: amilys/embyserver:latest #amilys大佬的开心版镜像
     container_name: embyserver
     restart: always
     network_mode: host #bridge也可以根据使用需求
     environment:
-      - PUID=0
-      - PGID=0
       - TZ=Asia/Shanghai
     volumes:
       - ./config:/config  #配置路径，根据实际路径填写
