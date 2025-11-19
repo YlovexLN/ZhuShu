@@ -37,13 +37,13 @@ export const siteConfig: SiteConfig = {
 	// 特色页面开关配置(关闭不在使用的页面有助于提升SEO,关闭后直接在顶部导航删除对应的页面就行)
 	featurePages: {
 		anime: true, // 番剧页面开关
-		diary: true, // 日记页面开关
+		diary: false, // 日记页面开关
 		friends: true, // 友链页面开关
 		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
+		skills: false, // 技能页面开关
 		timeline: true, // 时间线页面开关
-		albums: true, // 相册页面开关
-		devices: true, // 设备页面开关
+		albums: false, // 相册页面开关
+		devices: false, // 设备页面开关
 	},
 
 	// 顶栏标题配置
@@ -95,12 +95,12 @@ export const siteConfig: SiteConfig = {
 			desktop: [
 				"https://qiniu.ylovexln.top/banner/5a638e37c2073daecfbd650bb013e8f4.jpg",
 				"https://qiniu.ylovexln.top/banner/5hqfvfe8driz.jpg",
-				"https://qiniu.ylovexln.top/banner/Konachan.com%20-%20292274%20tagme.jpg"
+				"https://qiniu.ylovexln.top/banner/Konachan.com%20-%20292274%20tagme.jpg",
 			], // 桌面横幅图片
 			mobile: [
-                "https://qiniu.ylovexln.top/banner/78994837_p0.png",
-                "https://qiniu.ylovexln.top/banner/79386917_p0.png",
-                "https://qiniu.ylovexln.top/banner/9a17514f12ec25b395d27c9f918ae65f95d2d9c4.jpg",
+				"https://qiniu.ylovexln.top/banner/78994837_p0.png",
+				"https://qiniu.ylovexln.top/banner/79386917_p0.png",
+				"https://qiniu.ylovexln.top/banner/9a17514f12ec25b395d27c9f918ae65f95d2d9c4.jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -118,7 +118,6 @@ export const siteConfig: SiteConfig = {
 			mobileDisable: false, // 移动端禁用
 		},
 
-
 		// PicFlow API支持(智能图片API)
 		imageApi: {
 			enable: false, // 启用图片API
@@ -133,10 +132,10 @@ export const siteConfig: SiteConfig = {
 			title: "一隅竹塾，半卷闲书", // 主页横幅主标题
 
 			subtitle: [
-				  "竹影摇窗，墨香盈案",
-                  "猫步轻踱，书页微翻",
-                  "闲读四时，静观万象",
-                  "一隅自足，半卷养心"
+				"竹影摇窗，墨香盈案",
+				"猫步轻踱，书页微翻",
+				"闲读四时，静观万象",
+				"一隅自足，半卷养心",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -165,11 +164,11 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
 		// 留空以使用默认 favicon
-		 {
-		   src: 'favicon/favicon-dark-128.png',    // 图标文件路径
-		   theme: 'dark',              // 可选，指定主题 'light' | 'dark'
-		   sizes: '128x128',              // 可选，图标大小
-		 }
+		{
+			src: "favicon/favicon-dark-128.png", // 图标文件路径
+			theme: "dark", // 可选，指定主题 'light' | 'dark'
+			sizes: "128x128", // 可选，图标大小
+		},
 	],
 
 	// 字体配置
@@ -240,7 +239,7 @@ export const navBarConfig: NavBarConfig = {
 					url: "https://space.bilibili.com/24421599",
 					external: true,
 					icon: "fa6-brands:bilibili",
-				}
+				},
 			],
 		},
 		{
@@ -305,7 +304,7 @@ export const profileConfig: ProfileConfig = {
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/YlovexLN",
-		}
+		},
 	],
 };
 
@@ -577,9 +576,9 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-  enabled: true, // 是否显示Umami统计
-  shareURL: "https://cloud.umami.is/share/w2y5ujIAgNp8mmhb/blog.ylovexln.top", //你的分享API,支持自建服务
-  scripts: `
+	enabled: true, // 是否显示Umami统计
+	shareURL: "https://cloud.umami.is/share/w2y5ujIAgNp8mmhb/blog.ylovexln.top", //你的分享API,支持自建服务
+	scripts: `
 <script defer src="https://cloud.umami.is/script.js" data-website-id="47e2f318-0a0e-475d-bced-1af9d2d7d841"></script>
   `.trim(), //上面填你要插入的Script,不用再去Layout中插入
 } as const;
