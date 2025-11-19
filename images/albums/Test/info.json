@@ -1,0 +1,11 @@
+{
+    "mode": "external",
+    "title": "外链相册测试",
+    "cover": "https://qiniu.ylovexln.top/images/fe09572edbda952c755ea30ad9e45da4.png",
+    "photos": [
+        {
+            "src": "https://qiniu.ylovexln.top/images/fe09572edbda952c755ea30ad9e45da4.png",
+            "alt": "图片描述"
+        }
+    ]
+}
