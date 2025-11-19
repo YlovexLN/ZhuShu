@@ -5,4 +5,3 @@
 [build.environment]
   ENABLE_CONTENT_SYNC = "true"
   CONTENT_REPO_URL = "https://github.com/YlovexLN/ZhuShu-Content.git"
-  UMAMI_API_KEY = “api_Lb7C2eIllK0C79p90Jm0DwGL2ezDTWZu”
