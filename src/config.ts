@@ -89,33 +89,6 @@ export const siteConfig: SiteConfig = {
 		showModeSwitchOnMobile: "desktop",
 	},
 
-	// 文章列表布局配置
-	postListLayout: {
-		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（双列布局）
-		// 注意：如果侧边栏配置启用了"both"双侧边栏，则无法使用文章列表"grid"网格（双列）布局
-		defaultMode: "list",
-		// 是否允许用户切换布局
-		allowSwitch: true,
-	},
-
-	// 标签样式配置
-	tagStyle: {
-		// 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
-		useNewStyle: false,
-	},
-
-	// 壁纸模式配置
-	wallpaperMode: {
-		// 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
-		defaultMode: "banner",
-		// 整体布局方案切换按钮显示设置（默认："desktop"）
-		// "off" = 不显示
-		// "mobile" = 仅在移动端显示
-		// "desktop" = 仅在桌面端显示
-		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "desktop",
-	},
-
 	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
