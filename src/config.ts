@@ -578,8 +578,10 @@ export const widgetConfigs = {
 
 export const umamiConfig = {
 	enabled: true, // 是否显示Umami统计
-	shareURL: "https://cloud.umami.is/share/w2y5ujIAgNp8mmhb/blog.ylovexln.top", //你的分享API,支持自建服务
+	apiKey:
+		import.meta.env.UMAMI_API_KEY || "api_Lb7C2eIllK0C79p90Jm0DwGL2ezDTWZu", // API密钥优先从环境变量读取，否则使用配置文件中的值
+	baseUrl: "https://api.umami.is", // Umami Cloud API地址
 	scripts: `
 <script defer src="https://cloud.umami.is/script.js" data-website-id="47e2f318-0a0e-475d-bced-1af9d2d7d841"></script>
-  `.trim(), //上面填你要插入的Script,不用再去Layout中插入
+  `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
