@@ -51,7 +51,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ZhuShu",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "https://qiniu.ylovexln.top/blog/favicon-dark-128.png",
+		icon: "/favicon/favicon.png",
 	},
 
 	bangumi: {
@@ -167,7 +167,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// 留空以使用默认 favicon
 		{
-			src: "https://qiniu.ylovexln.top/blog/favicon-dark-128.png", // 图标文件路径
+			src: "/favicon/favicon-dark-128.png", // 图标文件路径
 			theme: "dark", // 可选，指定主题 'light' | 'dark'
 			sizes: "128x128", // 可选，图标大小
 		},
