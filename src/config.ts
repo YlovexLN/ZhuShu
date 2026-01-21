@@ -67,8 +67,8 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bangumi: {
-		userId: "100579", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
-		fetchOnDev: false, // 是否在开发环境下获取 Bangumi 数据（默认 false），获取前先执行 pnpm build 构建 json 文件
+		userId: "1005798", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		fetchOnDev: true, // 是否在开发环境下获取 Bangumi 数据（默认 false），获取前先执行 pnpm build 构建 json 文件
 	},
 
 	anime: {
@@ -178,12 +178,11 @@ export const siteConfig: SiteConfig = {
 	showCoverInContent: true, // 在文章内容页显示文章封面
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
-		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		{
+			src: "favicon/favicon.png", // 图标文件路径
+			theme: "dark", // 可选，指定主题 'light' | 'dark'
+			sizes: "32x32", // 可选，图标大小
+		},
 	],
 
 	// 字体配置
@@ -293,18 +292,11 @@ export const navBarConfig: NavBarConfig = {
 			name: "About",
 			url: "/content/",
 			icon: "material-symbols:info",
-			children: [
-				{
-					name: "About",
-					url: "/about/",
-					icon: "material-symbols:person",
-				},
-				{
-					name: "Friends",
-					url: "/friends/",
-					icon: "material-symbols:group",
-				},
-			],
+		},
+		{
+			name: "Friends",
+			url: "/friends/",
+			icon: "material-symbols:group",
 		},
 	],
 };
