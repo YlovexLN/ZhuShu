@@ -15,7 +15,6 @@ export interface Project {
 	endDate?: string;
 	featured?: boolean;
 	tags?: string[];
-	visitUrl?: string; // 添加前往项目链接字段
 }
 
 export const projectsData: Project[] = [
@@ -29,8 +28,7 @@ export const projectsData: Project[] = [
 		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
 		status: "completed",
 		liveDemo: "https://blog.example.com",
-		sourceCode: "https://github.com/example/mizuki", // 更改为GitHub链接
-		visitUrl: "https://blog.example.com", // 添加前往项目链接
+		sourceCode: "https://github.com/example/mizuki",
 		startDate: "2024-01-01",
 		endDate: "2024-06-01",
 		featured: true,
@@ -47,7 +45,6 @@ export const projectsData: Project[] = [
 		status: "completed",
 		liveDemo: "https://portfolio.example.com",
 		sourceCode: "https://github.com/example/portfolio",
-		visitUrl: "https://portfolio.example.com", // 添加前往项目链接
 		startDate: "2023-09-01",
 		endDate: "2023-12-01",
 		featured: true,
@@ -75,7 +72,6 @@ export const projectsData: Project[] = [
 		techStack: ["Vue.js", "D3.js", "TypeScript", "Node.js"],
 		status: "completed",
 		liveDemo: "https://dataviz.example.com",
-		visitUrl: "https://dataviz.example.com", // 添加前往项目链接
 		startDate: "2023-06-01",
 		endDate: "2023-11-01",
 		tags: ["Data Visualization", "Analytics", "Charts"],
@@ -97,9 +93,7 @@ export const projectsData: Project[] = [
 // Get project statistics
 export const getProjectStats = () => {
 	const total = projectsData.length;
-	const completed = projectsData.filter(
-		(p) => p.status === "completed",
-	).length;
+	const completed = projectsData.filter((p) => p.status === "completed").length;
 	const inProgress = projectsData.filter(
 		(p) => p.status === "in-progress",
 	).length;
@@ -132,9 +126,7 @@ export const getFeaturedProjects = () => {
 export const getAllTechStack = () => {
 	const techSet = new Set<string>();
 	projectsData.forEach((project) => {
-		project.techStack.forEach((tech) => {
-			techSet.add(tech);
-		});
+		project.techStack.forEach((tech) => techSet.add(tech));
 	});
 	return Array.from(techSet).sort();
 };
