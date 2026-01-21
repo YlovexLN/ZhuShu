@@ -47,5 +47,3 @@ src/data/bangumi-data.json
 
 # MyConfig
 /src/content/posts/*.md
-/src/content/spec/*.md
-/src/data/*.ts
