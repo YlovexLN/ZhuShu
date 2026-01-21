@@ -19,7 +19,7 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "ja"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
 	title: "ZhuShu",
@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ZhuShu",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/favicon/favicon.png",
+		icon: "favicon/favicon.png",
 		// 网站Logo图片路径
-		logo: "assets/favicon/favicon.png",
+		logo: "favicon/favicon.png",
 	},
 
 	// 页面自动缩放配置
@@ -287,23 +287,6 @@ export const navBarConfig: NavBarConfig = {
 				// 	icon: "material-symbols:devices",
 				// 	external: false,
 				// },
-			],
-		},
-		{
-			name: "About",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [
-				{
-					name: "About",
-					url: "/about/",
-					icon: "material-symbols:person",
-				},
-				{
-					name: "Friends",
-					url: "/friends/",
-					icon: "material-symbols:group",
-				},
 			],
 		},
 		{
