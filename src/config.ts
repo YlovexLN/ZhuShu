@@ -57,9 +57,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ZhuShu",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-		icon: "favicon/favicon.ico",
+		icon: "favicon/favicon.webp",
 		// 网站Logo图片路径
-		logo: "favicon/favicon.png",
+		logo: "favicon/favicon.ico",
 	},
 
 	// 页面自动缩放配置
