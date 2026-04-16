@@ -57,9 +57,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ZhuShu",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-		icon: "favicon/favicon.png",
+		icon: "favicon/favicon.ico",
 		// 网站Logo图片路径
-		logo: "favicon/favicon.ico",
+		logo: "favicon/favicon.png",
 	},
 
 	// 页面自动缩放配置
@@ -125,11 +125,11 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"https://qiniu.ylovexln.top/banner/Konachan.com%20-%20292274%20tagme.jpg-small"
+				"https://qiniu.ylovexln.top/banner/Konachan.com%20-%20292274%20tagme.jpg-small",
 			], // 桌面横幅图片
 			mobile: [
 				"https://qiniu.ylovexln.top/banner/79386917_p0.png-small",
-				"https://qiniu.ylovexln.top/banner/9a17514f12ec25b395d27c9f918ae65f95d2d9c4.jpg-small"
+				"https://qiniu.ylovexln.top/banner/9a17514f12ec25b395d27c9f918ae65f95d2d9c4.jpg-small",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -274,13 +274,13 @@ export const navBarConfig: NavBarConfig = {
 					name: "GitHub",
 					url: "https://github.com/YlovexLN",
 					external: true,
-					icon: "fa6-brands:github",
+					icon: "fa7-brands:github",
 				},
 				{
 					name: "Bilibili",
 					url: "https://space.bilibili.com/24421599",
 					external: true,
-					icon: "fa6-brands:bilibili",
+					icon: "fa7-brands:bilibili",
 				},
 			],
 		},
@@ -320,12 +320,12 @@ export const profileConfig: ProfileConfig = {
 	links: [
 		{
 			name: "GitHub",
-			icon: "fa6-brands:github",
+			icon: "fa7-brands:github",
 			url: "https://github.com/YlovexLN",
 		},
 		{
 			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
+			icon: "fa7-brands:bilibili",
 			url: "https://space.bilibili.com/24421599",
 		},
 	],
