@@ -59,7 +59,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
 		icon: "favicon/favicon.webp",
 		// 网站Logo图片路径
-		logo: "/favicon/favicon.ico",
+		logo: "favicon/favicon.ico",
 	},
 
 	// 页面自动缩放配置
@@ -197,7 +197,7 @@ export const siteConfig: SiteConfig = {
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
 		{
-			src: "favicon/favicon.ico", // 图标文件路径
+			src: "/favicon/favicon.ico", // 图标文件路径
 			theme: "dark", // 可选，指定主题 'light' | 'dark'
 			sizes: "128x128", // 可选，图标大小
 		},
